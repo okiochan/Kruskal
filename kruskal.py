@@ -68,7 +68,7 @@ def GetData():
 def Euclidean(x,y):
     return np.sqrt(np.sum((x-y)**2))
 
-#привет
+#ДСУ - нам нужно определять в разных ли кластерах (компонентах) лежат вершины текущего ребра
 class DSU:
     def __init__(self, n):
         self.n = n
@@ -83,7 +83,7 @@ class DSU:
         if a == b: return
         self.p[a] = b
 
-#method gets: viborka, count clasters we want, should we draw graphic?, metric        
+#метод принимает выборку, кол-во кластеров, нужно ли отрисовать график, метрику
 def Kruskal(X, needclasses, plotGraph=False, ro=Euclidean):
     l = X.shape[0]
     edges = []
@@ -107,7 +107,7 @@ def Kruskal(X, needclasses, plotGraph=False, ro=Euclidean):
             classes -= 1
         now += 1
 
-    # form classes
+    # формируем кластеры
     dict = {}
     classes = 0
     for i in range(l):
