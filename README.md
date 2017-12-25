@@ -8,7 +8,6 @@
 
 <figure>
   <img src="https://raw.githubusercontent.com/okiochan/Kruskal/master/11.png" alt="uniform"/>
-  <figcaption>Карта классификации для случая, когда все точки имеют одинаковый вес</figcaption>
 </figure>
 
 Выберем, к примеру, 1 кластер (Краскал даст просто Мин Ост дерево)
