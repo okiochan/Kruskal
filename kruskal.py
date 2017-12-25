@@ -68,6 +68,7 @@ def GetData():
 def Euclidean(x,y):
     return np.sqrt(np.sum((x-y)**2))
 
+#привет
 class DSU:
     def __init__(self, n):
         self.n = n
