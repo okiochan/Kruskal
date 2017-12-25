@@ -6,7 +6,6 @@
 
 ###### Пример работы программы:
 
-Выберем, к примеру, 1 кластер (Краскал даст просто Мин Ост дерево)
 <figure>
   <img src="https://raw.githubusercontent.com/okiochan/Kruskal/master/nice.png" alt="uniform"/>
 </figure>
