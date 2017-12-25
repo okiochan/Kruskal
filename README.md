@@ -4,24 +4,24 @@
 Алгоритм Мин Ост Дерева описан [здесь]( http://e-maxx.ru/algo/mst_kruskal)
 По графику мф можем оценить на сколько "хорошо" эксперт выбрал кол-во кластеров. 
 
-###### Пример чето там:
+###### Пример работы программы:
 
+Выберем, к примеру, 1 кластер (Краскал даст просто Мин Ост дерево)
 <figure>
   <img src="https://raw.githubusercontent.com/okiochan/Kruskal/master/11.png" alt="uniform"/>
 </figure>
 
-Выберем, к примеру, 1 кластер (Краскал даст просто Мин Ост дерево)
-![](https://raw.githubusercontent.com/okiochan/Kruskal/master/11.png)
 Мы видим, что на графике большой скачок - это мы взяли тяжелое ребро
-![](https://raw.githubusercontent.com/okiochan/Kruskal/master/1.png)
-Пример для 3х кластеров:
-![](https://raw.githubusercontent.com/okiochan/Kruskal/master/31.png)
-![](https://raw.githubusercontent.com/okiochan/Kruskal/master/3.png)
-Пример для 5х кластеров:
-![](https://raw.githubusercontent.com/okiochan/Kruskal/master/51.png)
-![](https://raw.githubusercontent.com/okiochan/Kruskal/master/5.png)
-Пример для 10х кластеров:
-![](https://raw.githubusercontent.com/okiochan/Kruskal/master/101.png)
-![](https://raw.githubusercontent.com/okiochan/Kruskal/master/10.png)
+<figure>
+  <img src="https://raw.githubusercontent.com/okiochan/Kruskal/master/1.png" alt="uniform"/>
+</figure>
+
+###### Пример для 3х кластеров:
+
+<figure>
+  <img src="https://raw.githubusercontent.com/okiochan/Kruskal/master/31.png" alt="uniform"/>
+  <img src="https://raw.githubusercontent.com/okiochan/Kruskal/master/30.png" alt="uniform"/>
+</figure>
+
 
 код программы [здесь]( https://github.com/okiochan/Kruskal/blob/master/kruskal.py)
