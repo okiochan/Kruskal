@@ -4,10 +4,11 @@
 Алгоритм Мин Ост Дерева описан [здесь]( http://e-maxx.ru/algo/mst_kruskal)
 По графику мф можем оценить на сколько "хорошо" эксперт выбрал кол-во кластеров. 
 
+###### Пример чето там:
 
 <figure>
   <img src="https://raw.githubusercontent.com/okiochan/Kruskal/master/11.png" alt="uniform"/>
-  <figcaption>график весов ребер</figcaption>
+  <figcaption>Карта классификации для случая, когда все точки имеют одинаковый вес</figcaption>
 </figure>
 
 Выберем, к примеру, 1 кластер (Краскал даст просто Мин Ост дерево)
