@@ -1,6 +1,7 @@
 import random
 import numpy as np
 import matplotlib.pyplot as plt
+import dataKruskal
 
 def GetData():
     X = np.array([
@@ -108,6 +109,7 @@ def Kruskal(X, needclasses, plotGraph=False, ro=Euclidean):
         now += 1
 
     # формируем кластеры
+    # перенумеруем их в 0,1...
     dict = {}
     classes = 0
     for i in range(l):
@@ -116,7 +118,7 @@ def Kruskal(X, needclasses, plotGraph=False, ro=Euclidean):
             dict[now] = classes
             classes += 1
 
-            
+    # получаем из ДСУ класс
     y = np.zeros(l)
     for i in range(l):
         now = union.Get(i)
@@ -130,7 +132,7 @@ def Kruskal(X, needclasses, plotGraph=False, ro=Euclidean):
         
     return y
 
-X = GetData()
+X = dataKruskal.DataBuilder().Build("nice")
 y = Kruskal(X,2,True)
 #y = Kruskal(X,3,True)
 print(y)
