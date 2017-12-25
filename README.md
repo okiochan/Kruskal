@@ -17,10 +17,21 @@
 </figure>
 
 ###### Пример для 3х кластеров:
-
 <figure>
   <img src="https://raw.githubusercontent.com/okiochan/Kruskal/master/31.png" alt="uniform"/>
-  <img src="https://raw.githubusercontent.com/okiochan/Kruskal/master/30.png" alt="uniform"/>
+  <img src="https://raw.githubusercontent.com/okiochan/Kruskal/master/3.png" alt="uniform"/>
+</figure>
+
+###### Пример для 5х кластеров:
+<figure>
+  <img src="https://raw.githubusercontent.com/okiochan/Kruskal/master/51.png" alt="uniform"/>
+  <img src="https://raw.githubusercontent.com/okiochan/Kruskal/master/5.png" alt="uniform"/>
+</figure>
+
+###### Пример для 10х кластеров:
+<figure>
+  <img src="https://raw.githubusercontent.com/okiochan/Kruskal/master/101.png" alt="uniform"/>
+  <img src="https://raw.githubusercontent.com/okiochan/Kruskal/master/10.png" alt="uniform"/>
 </figure>
 
 
