@@ -1,8 +1,14 @@
-# Kruskal
+# <center> Краскал - кластеризация </center>
 
 Для кластерицации объектов, построим алгоритмом Краскала - мин ост лес. Количество кластеров выбирает эксперт.
 Алгоритм Мин Ост Дерева описан [здесь]( http://e-maxx.ru/algo/mst_kruskal)
 По графику мф можем оценить на сколько "хорошо" эксперт выбрал кол-во кластеров. 
+
+
+<figure>
+  <img src="https://raw.githubusercontent.com/okiochan/Kruskal/master/11.png" alt="uniform"/>
+  <figcaption>график весов ребер</figcaption>
+</figure>
 
 Выберем, к примеру, 1 кластер (Краскал даст просто Мин Ост дерево)
 ![](https://raw.githubusercontent.com/okiochan/Kruskal/master/11.png)
