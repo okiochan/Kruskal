@@ -7,7 +7,7 @@
 ###### Пример работы программы:
 
 <figure>
-  <img src="https://raw.githubusercontent.com/okiochan/Kruskal/master/nice.png" alt="uniform"/>
+  <img src="https://raw.githubusercontent.com/okiochan/Kruskal/master/niice.png" alt="uniform"/>
 </figure>
 
 Выберем, к примеру, 1 кластер (Краскал даст просто Мин Ост дерево)
